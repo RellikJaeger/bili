@@ -1,0 +1,8 @@
+youtube-dl -f best $1
+for i in *.flv; do 
+    filename="${i%.*}"
+    ffmpeg -i "$i" -c copy -copyts "$filename.mp4";
+    mkdir -p "/sdcard/Download"
+    mv "$filename.mp4" "/sdcard/Download"
+    rm -rf "$i"
+done
