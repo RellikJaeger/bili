@@ -1,4 +1,4 @@
-youtube-dl -f best $1
+youtube-dl -o "%(title)s.%(ext)s" -f best $1
 for i in *.flv; do 
     filename="${i%.*}"
     ffmpeg -i "$i" -c copy -copyts "$filename.mp4";
