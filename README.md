@@ -5,7 +5,7 @@
 ### Setup example for Termux  
 - Copy and paste this into Termux.
 ```bash
-pkg up -y && pkg in -y git python ffmpeg && python -m pip install --upgrade pip && pip install youtube-dl && git clone https://github.com/RellikJaeger/bili && cd bili && chmod +x bili && mv bili ~/../usr/bin && cd .. && rm -rf bili
+termux-setup-storage && pkg up -y && pkg in -y git python ffmpeg && python -m pip install --upgrade pip && pip install youtube-dl && git clone https://github.com/RellikJaeger/bili && cd bili && chmod +x bili && mv bili ~/../usr/bin && cd .. && rm -rf bili
 ```
 ### Usage example
 - Copy and paste this into Termux.
