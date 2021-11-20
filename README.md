@@ -15,7 +15,7 @@ bili https://b23.tv/Al8T0j
 ### Output file path
 - You can find your downloaded video file in the internal storage "Download" folder.  
 #### Example paths:
-| "/sdcard/Download/Video Name-VideoID.mp4"             |
+| "/sdcard/Download/Video Name.mp4"             |
 | --- |
-| "/storage/emulated/0/Download/Video Name-VideoID.mp4" |
+| "/storage/emulated/0/Download/Video Name.mp4" |
 > PS: Need to update some parts for general purpose.
